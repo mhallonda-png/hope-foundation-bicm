@@ -7,3 +7,6 @@
 .kalotum-gallery{margin:34px 0}.kalotum-gallery figure{margin:0}.kalotum-gallery img{width:100%;max-height:650px;object-fit:cover;display:block;border-radius:14px}.kalotum-gallery figcaption{font-size:13px;color:var(--muted);margin-top:10px}
 
 .kalotum-gallery{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;align-items:start}.kalotum-gallery figure{margin:0}.kalotum-gallery img{aspect-ratio:4/3}.kalotum-gallery .kalotum-hero-photo img{aspect-ratio:16/10}@media(max-width:820px){.kalotum-gallery{grid-template-columns:1fr}}
+
+/* Keep Get Involved calls-to-action readable and separated at every viewport width. */
+.cta>div:last-child{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:flex-end}.cta>div:last-child a{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;min-height:48px}.cta .secondary.light{border:2px solid #fff;color:#fff;background:transparent}@media(max-width:820px){.cta>div:last-child{justify-content:flex-start;align-items:stretch;flex-direction:column;width:100%}.cta>div:last-child a{width:100%;white-space:normal;text-align:center}}
